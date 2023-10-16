@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Kizito Nwose" => "kizitonwose@gmail.com" }
   spec.platform     = :ios, "9.0"
   spec.swift_versions = ['5.0']
-  spec.source       = { :git => "https://github.com/kizitonwose/CountryPickerView.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/ejaro/CountryPickerView.git", :tag => spec.version }
   spec.source_files  = "CountryPickerView/**/*.{swift}"
   spec.resource_bundles = {
     # See Bundle.swift for why this is named like this.
