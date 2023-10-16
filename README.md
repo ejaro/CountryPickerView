@@ -20,13 +20,6 @@ You can clone/download the repository and run the [demo project](https://github.
 
 ## Installation
 
-> Note that 3.x releases are Swift 5 compatible. For the Swift 4 compatibility, use 2.x releases. For the Swift 3 compatibility, use 1.x releases.
-
-### Swift Package Manager
-[Swift Package Manager](https://swift.org/package-manager) is a dependency manager built into Xcode.
-
-If you are using Xcode 11 or higher, go to `File / Swift Packages / Add Package Dependency…` and enter package repository URL `https://github.com/kizitonwose/CountryPickerView.git` then follow the instructions.
-
 ### Cocoapods
 
 CountryPickerView is available through [CocoaPods](http://cocoapods.org). Simply add the following to your Podfile:
@@ -35,18 +28,8 @@ CountryPickerView is available through [CocoaPods](http://cocoapods.org). Simply
 use_frameworks!
 
 target '<Your Target Name>' do
-  pod 'CountryPickerView'
+  pod 'CountryPickerView', :git => 'https://github.com/ejaro/CountryPickerView'
 end
-```
-
-### Carthage
-
-[Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
-
-To install CountryPickerView through Carthage, simply add the following to your Cartfile:
-
-```ruby
-github "kizitonwose/CountryPickerView"
 ```
 
 ### Manual
