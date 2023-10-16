@@ -3,9 +3,9 @@ Pod::Spec.new do |spec|
   spec.name         = "CountryPickerView"
   spec.version      = "3.3.0"
   spec.summary      = "A simple, customizable view for selecting countries in iOS apps."
-  spec.homepage     = "https://github.com/kizitonwose/CountryPickerView"
+  spec.homepage     = "https://github.com/ejaro/CountryPickerView"
   spec.license      = "MIT"
-  spec.author       = { "Kizito Nwose" => "kizitonwose@gmail.com" }
+  spec.author       = { "Nakul Sharma" => "n.sharma@ejaro.com" }
   spec.platform     = :ios, "9.0"
   spec.swift_versions = ['5.0']
   spec.source       = { :git => "https://github.com/ejaro/CountryPickerView.git", :tag => spec.version }
